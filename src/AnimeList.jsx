@@ -20,7 +20,7 @@ function AnimeList() {
   const fullText = "Choose Your Favorite Anime Titles";
 
   useEffect(() => {
-    const typingSpeed = isDeleting ? 5 : 5; 
+    const typingSpeed = isDeleting ? 50 : 50; 
     const delayBetweenCycles = 2000;
 
     if (index < fullText.length && !isDeleting) {
