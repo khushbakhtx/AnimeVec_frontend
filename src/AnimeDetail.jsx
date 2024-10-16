@@ -8,7 +8,7 @@ function AnimeDetail() {
   const [animeDetails, setAnimeDetails] = useState({});
 
   useEffect(() => {
-    axios.post('http://127.0.0.1:8000/recommend', { title: decodeURIComponent(title) })
+    axios.post('https://anime-vec-backend.vercel.app/recommend', { title: decodeURIComponent(title) })
       .then(response => setAnimeDetails(response.data))
       .catch(error => console.log(error));
   }, [title]);
