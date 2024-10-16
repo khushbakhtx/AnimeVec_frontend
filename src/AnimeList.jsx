@@ -78,7 +78,7 @@ function AnimeList() {
 
     setLoading(true);
     try {
-      const response = await axios.get(`https://anime-vec-backend.vercel.app/titles?skip=${page * LIMIT}&limit=${LIMIT}`);
+      const response = await axios.get(`https://animevec-backend.onrender.com/titles?skip=${page * LIMIT}&limit=${LIMIT}`);
       const newTitles = response.data;
 
       setAnimeTitles(prevTitles => {
