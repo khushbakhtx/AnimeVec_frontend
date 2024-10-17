@@ -8,7 +8,7 @@ function AnimeDetail() {
   const [animeDetails, setAnimeDetails] = useState({});
 
   useEffect(() => {
-    axios.post('https://anime-vec-backend.vercel.app/recommend', { title: decodeURIComponent(title) })
+    axios.post('https://animevec-backend.onrender.com/recommend', { title: decodeURIComponent(title) })
       .then(response => setAnimeDetails(response.data))
       .catch(error => console.log(error));
   }, [title]);
