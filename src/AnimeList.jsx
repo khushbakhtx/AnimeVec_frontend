@@ -17,11 +17,11 @@ function AnimeList() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
 
-  const fullText = "Choose Your Favorite Anime Titles";
+  const fullText = "Get Personalized Recommendation";
 
   useEffect(() => {
-    const typingSpeed = isDeleting ? 50 : 50; 
-    const delayBetweenCycles = 2000;
+    const typingSpeed = isDeleting ? 50 : 100; 
+    const delayBetweenCycles = 5000;
 
     if (index < fullText.length && !isDeleting) {
       const timeout = setTimeout(() => {
