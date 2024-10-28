@@ -18,10 +18,9 @@ function About() {
       </ul>
       <h2>Thoughts on this Project</h2>
       <p>
-        Honestly, this project is part of my journey in learning Machine Learning and Artificial Intelligence.
         This project specifically has been made for practicing and gaining decent skills in recommendation systems.
-        Though content based system is not the modest or the strongest one, I shall intermittently integrate
-        popularity-based, collaborative, and hybrid rec. systems in my free time. 
+        Content Based Recommendation System.
+        Metrics used: MAP (Mean Average Precision) = 81, MRR (Mean Reciprocal Rank) = 78. 
       </p>
       <p>
         You might be confused facing recommendations title in japanese or japanese pronounced in english.
