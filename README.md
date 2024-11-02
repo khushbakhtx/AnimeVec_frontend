@@ -4,7 +4,7 @@ Welcome to the **Anime Recommendation System**! This project is a web-based appl
 
 [AnimeVec Web App](https://animevec.onrender.com/) You should wait 50 seconds at least to set a connection with the server (because of the free tier)
 
-[Link to Frontend Repository](https://github.com/khushbakhtx/AnimeVec_backend)
+[Link to Backend Repository](https://github.com/khushbakhtx/AnimeVec_backend)
 ## 📌 Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
